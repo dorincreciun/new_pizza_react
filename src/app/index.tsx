@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router"
 
 import { createRoot } from "react-dom/client"
+import { I18nextProvider } from "react-i18next"
 
 import { Routing } from "@app/providers/routing/Routing"
 
@@ -8,6 +9,7 @@ import { SidebarInfo } from "@widgets/sidebar-info"
 import { SidebarMenu } from "@widgets/sidebar-menu"
 
 import { Loader } from "@shared/components/Loader"
+import { i18n } from "@shared/config/i18n"
 import "@shared/config/styles/index.css"
 
 const container = document.getElementById("root")
@@ -20,13 +22,15 @@ const root = createRoot(container)
 
 root.render(
 	<BrowserRouter>
-		<div className={"flex justify-between gap-x-7.5"}>
-			<SidebarInfo />
-			<Routing />
-			<SidebarMenu />
-		</div>
+		<I18nextProvider i18n={i18n}>
+			<div className={"flex justify-between gap-x-7.5"}>
+				<SidebarInfo />
+				<Routing />
+				<SidebarMenu />
+			</div>
 
-		{/* Overlays */}
-		<Loader />
+			{/* Overlays */}
+			<Loader />
+		</I18nextProvider>
 	</BrowserRouter>,
 )

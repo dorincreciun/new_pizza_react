@@ -1,3 +1,6 @@
+import { useTranslation } from "react-i18next"
+
 export const Services = () => {
-	return <div>Services</div>
+	const { t } = useTranslation("common")
+	return <div>{t("navbar.home")}</div>
 }
