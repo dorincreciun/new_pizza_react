@@ -1,9 +1,13 @@
-import { createRoot } from "react-dom/client"
 import { BrowserRouter } from "react-router"
+
+import { createRoot } from "react-dom/client"
 
 import { Routing } from "@app/providers/routing/Routing"
 
-import { Loader } from "@shared/components/Loader/Loader.ui"
+import { SidebarInfo } from "@widgets/sidebar-info"
+import { SidebarMenu } from "@widgets/sidebar-menu"
+
+import { Loader } from "@shared/components/Loader"
 import "@shared/config/styles/index.css"
 
 const container = document.getElementById("root")
@@ -16,7 +20,13 @@ const root = createRoot(container)
 
 root.render(
 	<BrowserRouter>
-		<Routing />
+		<div className={"flex justify-between gap-x-7.5"}>
+			<SidebarInfo />
+			<Routing />
+			<SidebarMenu />
+		</div>
+
+		{/* Overlays */}
 		<Loader />
 	</BrowserRouter>,
 )

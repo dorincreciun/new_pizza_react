@@ -1,11 +1,11 @@
 import type { RouteObject } from "react-router"
 
+import { FallBackPage } from "@pages/fallback/FallBackPage"
+import { HomePage } from "@pages/home"
+
 import { TRouter } from "@shared/const/react-router"
 
-import { DefaultPage } from "@pages/default/DefaultPage"
-import { FallBackPage } from "@pages/fallback/FallBackPage"
-
 export const RoutesPublic: RouteObject[] = [
-	{ path: TRouter.DEFAULT, element: <DefaultPage /> },
+	{ path: TRouter.DEFAULT, element: <HomePage /> },
 	{ path: TRouter.FALLBACK, element: <FallBackPage /> },
 ]
