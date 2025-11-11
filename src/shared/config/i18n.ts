@@ -4,13 +4,18 @@ import { initReactI18next } from "react-i18next"
 
 import enCommon from "../locales/en/common.json"
 import roCommon from "../locales/ro/common.json"
+import ruCommon from "../locales/ru/common.json"
+
+const resources = {
+	ro: { common: roCommon },
+	en: { common: enCommon },
+	ru: { common: ruCommon },
+} as const
+
+export type TLanguage = keyof typeof resources
 
 const options: InitOptions = {
-	resources: {
-		ro: { common: roCommon },
-		en: { common: enCommon },
-	},
-
+	resources,
 	fallbackLng: "en",
 
 	ns: ["common"],
