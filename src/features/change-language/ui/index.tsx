@@ -13,7 +13,7 @@ export const LanguageSwitcher = () => {
 		<div className={"relative"}>
 			<button
 				onClick={() => setOpen((prev) => !prev)}
-				className={cn(["size-7.5 max-w-max overflow-hidden rounded-full"])}
+				className={cn(["size-7.5 max-w-max cursor-pointer overflow-hidden rounded-full active:opacity-70"])}
 			>
 				{renderLanguageIcon(current)}
 			</button>
@@ -30,8 +30,11 @@ export const LanguageSwitcher = () => {
 				{supportedLanguages.map((lang) => {
 					return (
 						<button
-							onClick={() => setLanguage(lang)}
-							className={cn(["size-7.5 overflow-hidden rounded-full"])}
+							onClick={() => {
+								void setLanguage(lang)
+								setOpen(false)
+							}}
+							className={cn(["size-7.5 cursor-pointer overflow-hidden rounded-full active:opacity-70"])}
 						>
 							{renderLanguageIcon(lang)}
 						</button>
