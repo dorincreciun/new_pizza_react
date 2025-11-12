@@ -32,7 +32,8 @@
 			"@features/*": ["features/*"],
 			"@entities/*": ["entities/*"],
 			"@shared/*": ["shared/*"]
-		}
+		},
+		"resolveJsonModule": true,
 	},
 	"include": ["src"]
 }

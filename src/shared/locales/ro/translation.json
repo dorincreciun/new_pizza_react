@@ -1,0 +1,100 @@
+{
+	"HOME": {
+		"SERVICES": {
+			"TITLE": "Serviciile mele",
+			"DESCRIPTION": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Lorem ipsum."
+		},
+		"RECOMMENDATIONS": {
+			"TITLE": "Recomandări",
+			"DESCRIPTION": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Lorem ipsum."
+		},
+		"EDUCATION": {
+			"TITLE": "Educație",
+			"DESCRIPTION": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Lorem ipsum.",
+			"BLOCKS": {
+				"BLOCK_1": {
+					"INSTITUTION": "Universitatea din Toronto",
+					"POSITION": "Student",
+					"PERIOD": "Ian 1016 - Dec 2021",
+					"CERTIFICATE_TITLE": "Certificat de instruire web",
+					"DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui."
+				},
+				"BLOCK_2": {
+					"INSTITUTION": "Universitatea din Toronto",
+					"POSITION": "Student",
+					"PERIOD": "Ian 1016 - Dec 2021",
+					"CERTIFICATE_TITLE": "Certificat de instruire web",
+					"DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui."
+				},
+				"BLOCK_3": {
+					"INSTITUTION": "Universitatea din Toronto",
+					"POSITION": "Student",
+					"PERIOD": "Ian 1016 - Dec 2021",
+					"CERTIFICATE_TITLE": "Certificat de instruire web",
+					"DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui."
+				}
+			}
+		},
+		"WORK_HISTORY": {
+			"TITLE": "Experiență profesională",
+			"DESCRIPTION": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Lorem ipsum.",
+			"BLOCKS": {
+				"BLOCK_1": {
+					"INSTITUTION": "Universitatea din Toronto",
+					"POSITION": "Student",
+					"PERIOD": "Ian 1016 - Dec 2021",
+					"CERTIFICATE_TITLE": "Certificat de instruire web",
+					"DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui."
+				},
+				"BLOCK_2": {
+					"INSTITUTION": "Universitatea din Toronto",
+					"POSITION": "Student",
+					"PERIOD": "Ian 1016 - Dec 2021",
+					"CERTIFICATE_TITLE": "Certificat de instruire web",
+					"DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui."
+				},
+				"BLOCK_3": {
+					"INSTITUTION": "Universitatea din Toronto",
+					"POSITION": "Student",
+					"PERIOD": "Ian 1016 - Dec 2021",
+					"CERTIFICATE_TITLE": "Certificat de instruire web",
+					"DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui."
+				}
+			}
+		},
+		"PORTFOLIO": {
+			"TITLE": "Portofoliu",
+			"DESCRIPTION": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Lorem ipsum."
+		},
+		"CONTACT": {
+			"TITLE": "Informații de contact",
+			"FORM": {
+				"TITLE": "Lasă-ne informațiile tale",
+				"FIELDS": {
+					"FULL_NAME": "Numele complet (obligatoriu)",
+					"EMAIL": "Adresa ta de email (obligatoriu)",
+					"SUBJECT": "Subiect",
+					"MESSAGE": "Mesajul tău"
+				},
+				"BUTTON": "Trimite mesaj"
+			},
+			"INFO": {
+				"LOCATION": {
+					"COUNTRY": "Țara",
+					"CITY": "Oraș",
+					"STREET": "Stradă"
+				},
+				"CONTACT_METHODS": {
+					"EMAIL": "Email",
+					"SKYPE": "Skype",
+					"TELEGRAM": "Telegram"
+				},
+				"SUPPORT": {
+					"TITLE": "Servicii suport",
+					"OFFICE": "Birou",
+					"PERSONAL": "Personal"
+				}
+			}
+		}
+	}
+}

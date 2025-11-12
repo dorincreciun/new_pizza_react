@@ -2,17 +2,7 @@ import i18next, { type InitOptions } from "i18next"
 import LanguageDetector from "i18next-browser-languagedetector"
 import { initReactI18next } from "react-i18next"
 
-import enCommon from "../locales/en/common.json"
-import roCommon from "../locales/ro/common.json"
-import ruCommon from "../locales/ru/common.json"
-
-const resources = {
-	ro: { common: roCommon },
-	en: { common: enCommon },
-	ru: { common: ruCommon },
-} as const
-
-export type TLanguage = keyof typeof resources
+import { resources } from "@shared/const/react-i18next"
 
 const options: InitOptions = {
 	resources,

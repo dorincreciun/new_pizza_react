@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next"
 
-import type { TLanguage } from "@shared/config/i18n"
+import type { TLanguage } from "@shared/const/react-i18next"
 
 export const useLanguage = () => {
 	const { i18n } = useTranslation()

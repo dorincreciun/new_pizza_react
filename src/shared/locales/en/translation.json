@@ -1,0 +1,100 @@
+{
+	"HOME": {
+		"SERVICES": {
+			"TITLE": "My Services",
+			"DESCRIPTION": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Lorem ipsum."
+		},
+		"RECOMMENDATIONS": {
+			"TITLE": "Recommendations",
+			"DESCRIPTION": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Lorem ipsum."
+		},
+		"EDUCATION": {
+			"TITLE": "Education",
+			"DESCRIPTION": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Lorem ipsum.",
+			"BLOCKS": {
+				"BLOCK_1": {
+					"INSTITUTION": "University Of Toronto",
+					"POSITION": "Student",
+					"PERIOD": "Jan 1016 - Dec 2021",
+					"CERTIFICATE_TITLE": "Certificate Of Web Training",
+					"DESCRIPTION": "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor. Pulvinar Quisque Sed Amet, Nulla Nunc. Eleifend Sodales Posuere Fusce Tempus Etiam Et Pellentesque. Molestie Risus Enim Neque Eget Dui."
+				},
+				"BLOCK_2": {
+					"INSTITUTION": "University Of Toronto",
+					"POSITION": "Student",
+					"PERIOD": "Jan 1016 - Dec 2021",
+					"CERTIFICATE_TITLE": "Certificate Of Web Training",
+					"DESCRIPTION": "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor. Pulvinar Quisque Sed Amet, Nulla Nunc. Eleifend Sodales Posuere Fusce Tempus Etiam Et Pellentesque. Molestie Risus Enim Neque Eget Dui."
+				},
+				"BLOCK_3": {
+					"INSTITUTION": "University Of Toronto",
+					"POSITION": "Student",
+					"PERIOD": "Jan 1016 - Dec 2021",
+					"CERTIFICATE_TITLE": "Certificate Of Web Training",
+					"DESCRIPTION": "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor. Pulvinar Quisque Sed Amet, Nulla Nunc. Eleifend Sodales Posuere Fusce Tempus Etiam Et Pellentesque. Molestie Risus Enim Neque Eget Dui."
+				}
+			}
+		},
+		"WORK_HISTORY": {
+			"TITLE": "Work History",
+			"DESCRIPTION": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Lorem ipsum.",
+			"BLOCKS": {
+				"BLOCK_1": {
+					"INSTITUTION": "University Of Toronto",
+					"POSITION": "Student",
+					"PERIOD": "Jan 1016 - Dec 2021",
+					"CERTIFICATE_TITLE": "Certificate Of Web Training",
+					"DESCRIPTION": "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor. Pulvinar Quisque Sed Amet, Nulla Nunc. Eleifend Sodales Posuere Fusce Tempus Etiam Et Pellentesque. Molestie Risus Enim Neque Eget Dui."
+				},
+				"BLOCK_2": {
+					"INSTITUTION": "University Of Toronto",
+					"POSITION": "Student",
+					"PERIOD": "Jan 1016 - Dec 2021",
+					"CERTIFICATE_TITLE": "Certificate Of Web Training",
+					"DESCRIPTION": "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor. Pulvinar Quisque Sed Amet, Nulla Nunc. Eleifend Sodales Posuere Fusce Tempus Etiam Et Pellentesque. Molestie Risus Enim Neque Eget Dui."
+				},
+				"BLOCK_3": {
+					"INSTITUTION": "University Of Toronto",
+					"POSITION": "Student",
+					"PERIOD": "Jan 1016 - Dec 2021",
+					"CERTIFICATE_TITLE": "Certificate Of Web Training",
+					"DESCRIPTION": "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor. Pulvinar Quisque Sed Amet, Nulla Nunc. Eleifend Sodales Posuere Fusce Tempus Etiam Et Pellentesque. Molestie Risus Enim Neque Eget Dui."
+				}
+			}
+		},
+		"PORTFOLIO": {
+			"TITLE": "Portfolio",
+			"DESCRIPTION": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Lorem ipsum."
+		},
+		"CONTACT": {
+			"TITLE": "Contact Information",
+			"FORM": {
+				"TITLE": "Leave Us Your Info",
+				"FIELDS": {
+					"FULL_NAME": "Your Full Name ( Required )",
+					"EMAIL": "Your Email ( Required )",
+					"SUBJECT": "Subject",
+					"MESSAGE": "Your Message"
+				},
+				"BUTTON": "Send Message"
+			},
+			"INFO": {
+				"LOCATION": {
+					"COUNTRY": "Country",
+					"CITY": "City",
+					"STREET": "Street"
+				},
+				"CONTACT_METHODS": {
+					"EMAIL": "Email",
+					"SKYPE": "Skype",
+					"TELEGRAM": "Telegram"
+				},
+				"SUPPORT": {
+					"TITLE": "Support Services",
+					"OFFICE": "Office",
+					"PERSONAL": "Personal"
+				}
+			}
+		}
+	}
+}
