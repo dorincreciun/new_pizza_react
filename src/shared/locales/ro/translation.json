@@ -2,7 +2,21 @@
 	"HOME": {
 		"SERVICES": {
 			"TITLE": "Serviciile mele",
-			"DESCRIPTION": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Lorem ipsum."
+			"DESCRIPTION": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Lorem ipsum.",
+			"BLOCKS": {
+				"BLOCK_1": {
+					"TITLE": "Web Development",
+					"DESCRIPTION": "Building modern web applications with React, TypeScript and Tailwind."
+				},
+				"BLOCK_2": {
+					"TITLE": "UI/UX Design",
+					"DESCRIPTION": "Designing intuitive and user-friendly interfaces for mobile and web."
+				},
+				"BLOCK_3": {
+					"TITLE": "Performance Optimization",
+					"DESCRIPTION": "Improving speed and efficiency of your web products for better UX."
+				}
+			}
 		},
 		"RECOMMENDATIONS": {
 			"TITLE": "Recomandări",
