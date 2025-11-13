@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
 
-import { SECTION_IDS, type SectionId } from "@widgets/sidebar-menu/model/constants"
+import { SECTION_IDS, type SectionId } from "@shared/const/html-sections"
 
 export const useSidebarScroll = () => {
-	const [activeSection, setActiveSection] = useState<SectionId>("services")
+	const [activeSection, setActiveSection] = useState<SectionId>("home")
 
 	const scrollToSection = (sectionId: SectionId) => {
 		const el = document.getElementById(sectionId)
@@ -23,7 +23,7 @@ export const useSidebarScroll = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			const referenceY = window.innerHeight / 3
+			const referenceY = window.innerHeight / 5
 
 			let currentId: SectionId | null = null
 

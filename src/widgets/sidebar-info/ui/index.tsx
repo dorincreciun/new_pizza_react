@@ -13,7 +13,7 @@ import { Tooltip } from "@shared/components/Tooltip"
 export const SidebarInfo = () => {
 	const { t } = useTranslation("translation")
 	return (
-		<div className={"sticky top-0 bottom-0 z-10 max-h-max w-[300px] bg-white p-10"}>
+		<div className={"sticky top-0 bottom-0 z-10 max-h-max min-h-screen w-[300px] bg-white p-10"}>
 			<Avatar />
 			{/* User name */}
 			<div className={"mt-5"}>

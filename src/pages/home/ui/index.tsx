@@ -11,6 +11,10 @@ export const HomePage = () => {
 	const { t } = useTranslation("translation")
 	return (
 		<div className={"flex flex-1 flex-col gap-y-17.5"}>
+			<div
+				id={"home"}
+				className={"min-h-[500px] bg-white"}
+			></div>
 			{/* Services */}
 			<SectionInfo
 				id={"services"}

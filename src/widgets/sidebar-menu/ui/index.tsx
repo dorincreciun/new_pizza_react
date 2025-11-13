@@ -22,10 +22,10 @@ export const SidebarMenu = () => {
 					title={"Home"}
 				>
 					<Button
-						color={isActive("services") ? "primary" : "secondary"}
+						color={isActive("home") ? "primary" : "secondary"}
 						aria-label={"Go to services section"}
 						isOnlyIcon
-						onClick={() => scrollToSection("services")}
+						onClick={() => scrollToSection("home")}
 					>
 						<House />
 					</Button>
