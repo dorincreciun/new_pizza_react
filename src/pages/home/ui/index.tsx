@@ -13,6 +13,7 @@ export const HomePage = () => {
 		<div className={"flex flex-1 flex-col gap-y-17.5"}>
 			{/* Services */}
 			<SectionInfo
+				id={"services"}
 				title={t("HOME.SERVICES.TITLE")}
 				description={t("HOME.SERVICES.DESCRIPTION")}
 				render={() => {
@@ -40,12 +41,14 @@ export const HomePage = () => {
 
 			{/* Recommendations */}
 			<SectionInfo
+				id={"recommendations"}
 				title={t("HOME.RECOMMENDATIONS.TITLE")}
 				description={t("HOME.RECOMMENDATIONS.DESCRIPTION")}
 			/>
 
 			{/* Education */}
 			<SectionInfo
+				id={"education"}
 				title={t("HOME.EDUCATION.TITLE")}
 				description={t("HOME.EDUCATION.DESCRIPTION")}
 				render={() => {
@@ -72,6 +75,7 @@ export const HomePage = () => {
 
 			{/* Work History */}
 			<SectionInfo
+				id={"work-history"}
 				title={t("HOME.WORK_HISTORY.TITLE")}
 				description={t("HOME.WORK_HISTORY.DESCRIPTION")}
 				render={() => {
@@ -96,6 +100,7 @@ export const HomePage = () => {
 
 			{/* Portfolio */}
 			<SectionInfo
+				id={"portfolio"}
 				title={t("HOME.PORTFOLIO.TITLE")}
 				description={t("HOME.PORTFOLIO.DESCRIPTION")}
 			/>

@@ -6,7 +6,7 @@ import { cn } from "@shared/utils/cn"
 
 export const Tooltip: FC<ITooltipProps> = ({ children, placement, arrow = true, title, maxWidth = "auto" }) => {
 	return (
-		<div className="group relative inline-flex max-w-max">
+		<div className="group relative inline-flex">
 			{children}
 
 			<div

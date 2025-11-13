@@ -24,7 +24,7 @@ export const buttonVariants = cva(
 				outlined: "border",
 			},
 			color: {
-				primary: "bg-yellow text-white hover:bg-yellow/90",
+				primary: "bg-yellow text-black hover:bg-yellow/90",
 				secondary: "bg-bg-1 text-black hover:bg-yellow",
 			},
 			size: {

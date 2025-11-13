@@ -5,9 +5,9 @@ import type { ISectionInfoProps } from "@widgets/section-services/model/interfac
 import { Subtitle } from "@shared/components/Subtitle"
 import { Title } from "@shared/components/Title"
 
-export const SectionInfo: FC<ISectionInfoProps> = ({ title, description, render }) => {
+export const SectionInfo: FC<ISectionInfoProps> = ({ id, title, description, render }) => {
 	return (
-		<div>
+		<div id={id}>
 			<div className={"mx-auto mb-12.5 max-w-[430px]"}>
 				<Title
 					as={"h2"}
