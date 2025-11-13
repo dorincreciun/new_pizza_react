@@ -8,4 +8,10 @@ export const resources = {
 	ru: { translation: ruCommon },
 } as const
 
+export const languageLabels = {
+	en: "English",
+	ro: "Română",
+	ru: "Русский",
+} as const
+
 export type TLanguage = keyof typeof resources

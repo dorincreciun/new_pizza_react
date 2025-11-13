@@ -3,6 +3,8 @@ import { useState } from "react"
 import { useLanguage } from "@features/change-language/model/useLanguage"
 import { renderLanguageIcon } from "@features/change-language/utils/render-icon"
 
+import { Tooltip } from "@shared/components/Tooltip"
+import { languageLabels } from "@shared/const/react-i18next"
 import { cn } from "@shared/utils/cn"
 
 export const LanguageSwitcher = () => {
@@ -10,13 +12,19 @@ export const LanguageSwitcher = () => {
 	const [open, setOpen] = useState<boolean>(false)
 
 	return (
-		<div className={"relative"}>
-			<button
-				onClick={() => setOpen((prev) => !prev)}
-				className={cn(["size-7.5 max-w-max cursor-pointer overflow-hidden rounded-full active:opacity-70"])}
+		<div className="relative">
+			<Tooltip
+				placement="left"
+				title="Change language"
 			>
-				{renderLanguageIcon(current)}
-			</button>
+				<button
+					onClick={() => setOpen((prev) => !prev)}
+					className={cn("size-7.5 max-w-max cursor-pointer overflow-hidden rounded-full active:opacity-70")}
+				>
+					{renderLanguageIcon(current)}
+				</button>
+			</Tooltip>
+
 			<div
 				className={cn(
 					"absolute z-10 mt-4",
@@ -27,19 +35,23 @@ export const LanguageSwitcher = () => {
 					:	"pointer-events-none -translate-y-2 scale-95 opacity-0",
 				)}
 			>
-				{supportedLanguages.map((lang) => {
-					return (
+				{supportedLanguages.map((lang) => (
+					<Tooltip
+						key={lang}
+						placement="left"
+						title={languageLabels[lang]}
+					>
 						<button
 							onClick={() => {
 								void setLanguage(lang)
 								setOpen(false)
 							}}
-							className={cn(["size-7.5 cursor-pointer overflow-hidden rounded-full active:opacity-70"])}
+							className={cn("size-7.5 cursor-pointer overflow-hidden rounded-full active:opacity-70")}
 						>
 							{renderLanguageIcon(lang)}
 						</button>
-					)
-				})}
+					</Tooltip>
+				))}
 			</div>
 		</div>
 	)
